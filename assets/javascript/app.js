@@ -1,27 +1,83 @@
 var fixedQuestionBank = [
     {
-        question: "This is a test question",
-        correctAnswer: `<span class="answer-choice" id="correct-answer">this is the correct answer.</span>`,
-        wrongAnswer1: `<span class="answer-choice">this is wrong answer one.</span>`,
-        wrongAnswer2: `<span class="answer-choice">this is wrong answer two.</span>`,
-        wrongAnswer3: `<span class="answer-choice">this is wrong answer three.</span>`,
-        correctAnswerText: `<p>this is the correct answer.</p>`
+        question: "Question One",
+        correctAnswer: `<span class="answer-choice" id="correct-answer">Correct Answer</span>`,
+        wrongAnswer1: `<span class="answer-choice">Wrong answer one.</span>`,
+        wrongAnswer2: `<span class="answer-choice">Wrong answer two.</span>`,
+        wrongAnswer3: `<span class="answer-choice">Wrong answer three.</span>`,
+        correctAnswerText: `<p>Correct Answer</p>`
     },
     {
-        question: "This is another test question",
-        correctAnswer: `<span class="answer-choice" id="correct-answer">this is the correct answer.</span>`,
-        wrongAnswer1: `<span class="answer-choice">this is wrong answer one.</span>`,
-        wrongAnswer2: `<span class="answer-choice">this is wrong answer two.</span>`,
-        wrongAnswer3: `<span class="answer-choice">this is wrong answer three.</span>`,
-        correctAnswerText: `<p>this is the correct answer.</p>`
+        question: "Question Two",
+        correctAnswer: `<span class="answer-choice" id="correct-answer">Correct Answer</span>`,
+        wrongAnswer1: `<span class="answer-choice">Wrong answer one.</span>`,
+        wrongAnswer2: `<span class="answer-choice">Wrong answer two.</span>`,
+        wrongAnswer3: `<span class="answer-choice">Wrong answer three.</span>`,
+        correctAnswerText: `<p>Correct Answer</p>`
     },
     {
-        question: "This is test question number three",
-        correctAnswer: `<span class="answer-choice" id="correct-answer">this is the correct answer.</span>`,
-        wrongAnswer1: `<span class="answer-choice">this is wrong answer one.</span>`,
-        wrongAnswer2: `<span class="answer-choice">this is wrong answer two.</span>`,
-        wrongAnswer3: `<span class="answer-choice">this is wrong answer three.</span>`,
-        correctAnswerText: `<p>this is the correct answer.</p>`
+        question: "Question Three",
+        correctAnswer: `<span class="answer-choice" id="correct-answer">Correct Answer</span>`,
+        wrongAnswer1: `<span class="answer-choice">Wrong answer one.</span>`,
+        wrongAnswer2: `<span class="answer-choice">Wrong answer two.</span>`,
+        wrongAnswer3: `<span class="answer-choice">Wrong answer three.</span>`,
+        correctAnswerText: `<p>Correct Answer</p>`
+    },
+    {
+        question: "Question Four",
+        correctAnswer: `<span class="answer-choice" id="correct-answer">Correct Answer</span>`,
+        wrongAnswer1: `<span class="answer-choice">Wrong answer one.</span>`,
+        wrongAnswer2: `<span class="answer-choice">Wrong answer two.</span>`,
+        wrongAnswer3: `<span class="answer-choice">Wrong answer three.</span>`,
+        correctAnswerText: `<p>Correct Answer</p>`
+    },
+    {
+        question: "Question Five",
+        correctAnswer: `<span class="answer-choice" id="correct-answer">Correct Answer</span>`,
+        wrongAnswer1: `<span class="answer-choice">Wrong answer one.</span>`,
+        wrongAnswer2: `<span class="answer-choice">Wrong answer two.</span>`,
+        wrongAnswer3: `<span class="answer-choice">Wrong answer three.</span>`,
+        correctAnswerText: `<p>Correct Answer</p>`
+    },
+    {
+        question: "Question Six",
+        correctAnswer: `<span class="answer-choice" id="correct-answer">Correct Answer</span>`,
+        wrongAnswer1: `<span class="answer-choice">Wrong answer one.</span>`,
+        wrongAnswer2: `<span class="answer-choice">Wrong answer two.</span>`,
+        wrongAnswer3: `<span class="answer-choice">Wrong answer three.</span>`,
+        correctAnswerText: `<p>Correct Answer</p>`
+    },
+    {
+        question: "Question Seven",
+        correctAnswer: `<span class="answer-choice" id="correct-answer">Correct Answer</span>`,
+        wrongAnswer1: `<span class="answer-choice">Wrong answer one.</span>`,
+        wrongAnswer2: `<span class="answer-choice">Wrong answer two.</span>`,
+        wrongAnswer3: `<span class="answer-choice">Wrong answer three.</span>`,
+        correctAnswerText: `<p>Correct Answer</p>`
+    },
+    {
+        question: "Question Eight",
+        correctAnswer: `<span class="answer-choice" id="correct-answer">Correct Answer</span>`,
+        wrongAnswer1: `<span class="answer-choice">Wrong answer one.</span>`,
+        wrongAnswer2: `<span class="answer-choice">Wrong answer two.</span>`,
+        wrongAnswer3: `<span class="answer-choice">Wrong answer three.</span>`,
+        correctAnswerText: `<p>Correct Answer</p>`
+    },
+    {
+        question: "Question Nine",
+        correctAnswer: `<span class="answer-choice" id="correct-answer">Correct Answer</span>`,
+        wrongAnswer1: `<span class="answer-choice">Wrong answer one.</span>`,
+        wrongAnswer2: `<span class="answer-choice">Wrong answer two.</span>`,
+        wrongAnswer3: `<span class="answer-choice">Wrong answer three.</span>`,
+        correctAnswerText: `<p>Correct Answer</p>`
+    },
+    {
+        question: "Question Ten",
+        correctAnswer: `<span class="answer-choice" id="correct-answer">Correct Answer</span>`,
+        wrongAnswer1: `<span class="answer-choice">Wrong answer one.</span>`,
+        wrongAnswer2: `<span class="answer-choice">Wrong answer two.</span>`,
+        wrongAnswer3: `<span class="answer-choice">Wrong answer three.</span>`,
+        correctAnswerText: `<p>Correct Answer</p>`
     },
 
 ]

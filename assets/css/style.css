@@ -5,7 +5,7 @@ body {
 
 header {
     text-align: center;
-    background-color: purple;
+    
 }
 
 h1 {
@@ -15,13 +15,14 @@ h1 {
 
 .question-and-answers {
     text-align: center;
-    background-color: yellow;
+    background-color: teal;
     width: 800px;
     min-height: 250px;
     margin: 15px auto;
     font-size: 25px;
     border-radius: 15px;
     padding: 15px;
+    position: relative;
 }
 
 #question {
@@ -39,7 +40,7 @@ h1 {
 }
 
 .answer-choice:hover {
-    background-color: red;
+    background-color: rgb(128, 0, 75);
 }
 
 .display-none {
@@ -47,11 +48,23 @@ h1 {
 }
 
 #myProgress {
-    width: 100%;
+    position: absolute;
+    bottom: 20px;
+    width: 800px;
     background-color: grey;
 }
 #myBar {
-    width: 0%;
+    position: relative;
+    width: 0;
     height: 30px;
     background-color: green;
+}
+
+#time {
+    position: absolute;
+    font-size: 20px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
