@@ -1,83 +1,83 @@
 var fixedQuestionBank = [
     {
-        question: "Question One",
-        correctAnswer: `<span class="answer-choice" id="correct-answer">Correct Answer</span>`,
-        wrongAnswer1: `<span class="answer-choice">Wrong answer one.</span>`,
-        wrongAnswer2: `<span class="answer-choice">Wrong answer two.</span>`,
-        wrongAnswer3: `<span class="answer-choice">Wrong answer three.</span>`,
-        correctAnswerText: `<p>Correct Answer</p>`
+        question: "What did the crocodile swallow in Peter Pan?",
+        correctAnswer: `<span class="answer-choice" id="correct-answer">An Alarm Clock</span>`,
+        wrongAnswer1: `<span class="answer-choice">Silver Spoon</span>`,
+        wrongAnswer2: `<span class="answer-choice">Captain Hook's Food</span>`,
+        wrongAnswer3: `<span class="answer-choice">A Treasure Map</span>`,
+        correctAnswerText: `<p>An Alarm Clock</p>`
     },
     {
-        question: "Question Two",
-        correctAnswer: `<span class="answer-choice" id="correct-answer">Correct Answer</span>`,
-        wrongAnswer1: `<span class="answer-choice">Wrong answer one.</span>`,
-        wrongAnswer2: `<span class="answer-choice">Wrong answer two.</span>`,
-        wrongAnswer3: `<span class="answer-choice">Wrong answer three.</span>`,
-        correctAnswerText: `<p>Correct Answer</p>`
+        question: "What year did the first World War Start",
+        correctAnswer: `<span class="answer-choice" id="correct-answer">1914</span>`,
+        wrongAnswer1: `<span class="answer-choice">1921</span>`,
+        wrongAnswer2: `<span class="answer-choice">1939</span>`,
+        wrongAnswer3: `<span class="answer-choice">1916</span>`,
+        correctAnswerText: `<p>1914</p>`
     },
     {
-        question: "Question Three",
-        correctAnswer: `<span class="answer-choice" id="correct-answer">Correct Answer</span>`,
-        wrongAnswer1: `<span class="answer-choice">Wrong answer one.</span>`,
-        wrongAnswer2: `<span class="answer-choice">Wrong answer two.</span>`,
-        wrongAnswer3: `<span class="answer-choice">Wrong answer three.</span>`,
-        correctAnswerText: `<p>Correct Answer</p>`
+        question: "What does the roman numeral C represent",
+        correctAnswer: `<span class="answer-choice" id="correct-answer">100</span>`,
+        wrongAnswer1: `<span class="answer-choice">50</span>`,
+        wrongAnswer2: `<span class="answer-choice">1000</span>`,
+        wrongAnswer3: `<span class="answer-choice">25</span>`,
+        correctAnswerText: `<p>100</p>`
     },
     {
-        question: "Question Four",
-        correctAnswer: `<span class="answer-choice" id="correct-answer">Correct Answer</span>`,
-        wrongAnswer1: `<span class="answer-choice">Wrong answer one.</span>`,
-        wrongAnswer2: `<span class="answer-choice">Wrong answer two.</span>`,
-        wrongAnswer3: `<span class="answer-choice">Wrong answer three.</span>`,
-        correctAnswerText: `<p>Correct Answer</p>`
+        question: "What is the smallest bone in the body?",
+        correctAnswer: `<span class="answer-choice" id="correct-answer">The Stapes</span>`,
+        wrongAnswer1: `<span class="answer-choice">Femur</span>`,
+        wrongAnswer2: `<span class="answer-choice">Malleus</span>`,
+        wrongAnswer3: `<span class="answer-choice">Ulna</span>`,
+        correctAnswerText: `<p>The Stapes</p>`
     },
     {
-        question: "Question Five",
-        correctAnswer: `<span class="answer-choice" id="correct-answer">Correct Answer</span>`,
-        wrongAnswer1: `<span class="answer-choice">Wrong answer one.</span>`,
-        wrongAnswer2: `<span class="answer-choice">Wrong answer two.</span>`,
-        wrongAnswer3: `<span class="answer-choice">Wrong answer three.</span>`,
-        correctAnswerText: `<p>Correct Answer</p>`
+        question: "How many dots are on two dice?",
+        correctAnswer: `<span class="answer-choice" id="correct-answer">42</span>`,
+        wrongAnswer1: `<span class="answer-choice">21</span>`,
+        wrongAnswer2: `<span class="answer-choice">44</span>`,
+        wrongAnswer3: `<span class="answer-choice">36</span>`,
+        correctAnswerText: `<p>42</p>`
     },
     {
-        question: "Question Six",
-        correctAnswer: `<span class="answer-choice" id="correct-answer">Correct Answer</span>`,
-        wrongAnswer1: `<span class="answer-choice">Wrong answer one.</span>`,
-        wrongAnswer2: `<span class="answer-choice">Wrong answer two.</span>`,
-        wrongAnswer3: `<span class="answer-choice">Wrong answer three.</span>`,
-        correctAnswerText: `<p>Correct Answer</p>`
+        question: "What’s the name of the famous big clock in London?",
+        correctAnswer: `<span class="answer-choice" id="correct-answer">Big Ben</span>`,
+        wrongAnswer1: `<span class="answer-choice">The Tower</span>`,
+        wrongAnswer2: `<span class="answer-choice">Windsor Clock</span>`,
+        wrongAnswer3: `<span class="answer-choice">Time's Tower</span>`,
+        correctAnswerText: `<p>Big Ben</p>`
     },
     {
-        question: "Question Seven",
-        correctAnswer: `<span class="answer-choice" id="correct-answer">Correct Answer</span>`,
-        wrongAnswer1: `<span class="answer-choice">Wrong answer one.</span>`,
-        wrongAnswer2: `<span class="answer-choice">Wrong answer two.</span>`,
-        wrongAnswer3: `<span class="answer-choice">Wrong answer three.</span>`,
-        correctAnswerText: `<p>Correct Answer</p>`
+        question: "Who painted the Sistine Chapel?",
+        correctAnswer: `<span class="answer-choice" id="correct-answer">Michelangelo</span>`,
+        wrongAnswer1: `<span class="answer-choice">Leonardo</span>`,
+        wrongAnswer2: `<span class="answer-choice">Donatello</span>`,
+        wrongAnswer3: `<span class="answer-choice">Raphael</span>`,
+        correctAnswerText: `<p>Michelangelo</p>`
     },
     {
-        question: "Question Eight",
-        correctAnswer: `<span class="answer-choice" id="correct-answer">Correct Answer</span>`,
-        wrongAnswer1: `<span class="answer-choice">Wrong answer one.</span>`,
-        wrongAnswer2: `<span class="answer-choice">Wrong answer two.</span>`,
-        wrongAnswer3: `<span class="answer-choice">Wrong answer three.</span>`,
-        correctAnswerText: `<p>Correct Answer</p>`
+        question: "Which is the largest ocean?",
+        correctAnswer: `<span class="answer-choice" id="correct-answer">Pacific</span>`,
+        wrongAnswer1: `<span class="answer-choice">Atlantic</span>`,
+        wrongAnswer2: `<span class="answer-choice">Artic</span>`,
+        wrongAnswer3: `<span class="answer-choice">Indian</span>`,
+        correctAnswerText: `<p>Pacific</p>`
     },
     {
-        question: "Question Nine",
-        correctAnswer: `<span class="answer-choice" id="correct-answer">Correct Answer</span>`,
-        wrongAnswer1: `<span class="answer-choice">Wrong answer one.</span>`,
-        wrongAnswer2: `<span class="answer-choice">Wrong answer two.</span>`,
-        wrongAnswer3: `<span class="answer-choice">Wrong answer three.</span>`,
-        correctAnswerText: `<p>Correct Answer</p>`
+        question: "How many squares are there on a chess board?",
+        correctAnswer: `<span class="answer-choice" id="correct-answer">64</span>`,
+        wrongAnswer1: `<span class="answer-choice">81</span>`,
+        wrongAnswer2: `<span class="answer-choice">49</span>`,
+        wrongAnswer3: `<span class="answer-choice">100</span>`,
+        correctAnswerText: `<p>64</p>`
     },
     {
-        question: "Question Ten",
-        correctAnswer: `<span class="answer-choice" id="correct-answer">Correct Answer</span>`,
-        wrongAnswer1: `<span class="answer-choice">Wrong answer one.</span>`,
-        wrongAnswer2: `<span class="answer-choice">Wrong answer two.</span>`,
-        wrongAnswer3: `<span class="answer-choice">Wrong answer three.</span>`,
-        correctAnswerText: `<p>Correct Answer</p>`
+        question: "When was President Kennedy killed?",
+        correctAnswer: `<span class="answer-choice" id="correct-answer">1963</span>`,
+        wrongAnswer1: `<span class="answer-choice">1959</span>`,
+        wrongAnswer2: `<span class="answer-choice">1966</span>`,
+        wrongAnswer3: `<span class="answer-choice">1953</span>`,
+        correctAnswerText: `<p>1963</p>`
     },
 
 ]
@@ -121,6 +121,7 @@ function setQuestion() {
 function countDown() {
     if (initialTime === 0) {
         
+        $('#myProgress').addClass('display-none');
         clearInterval(intervalId);
         clearInterval(timeBarIntervalId);
         $('#answers').html(`
@@ -153,6 +154,7 @@ $(document).on('click', '.answer-choice', function() {
         `)
         wins++;
         displayNewQuestion();
+        $('#myProgress').addClass('display-none');
         clearInterval(intervalId);
         clearInterval(timeBarIntervalId);
     } else {
@@ -164,6 +166,7 @@ $(document).on('click', '.answer-choice', function() {
         `)
         losses++;
         displayNewQuestion();
+        $('#myProgress').addClass('display-none');
         clearInterval(intervalId);
         clearInterval(timeBarIntervalId);
     }
@@ -225,8 +228,9 @@ function timeBar() {
     var elem = document.getElementById("myBar"); 
     var width = 0;
     timeBarIntervalId = setInterval(frame, 10);
+    $('#myProgress').removeClass('display-none');
     function frame() {
-        if (width >= 99) {
+        if (width >= 99.8) {
             elem.style.width = '100%';
             clearInterval(timeBarIntervalId);
         } else {

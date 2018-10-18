@@ -33,14 +33,13 @@ h1 {
     display: block;
     width: fit-content;
     cursor: pointer;
-    list-style-type: none;
-    text-align: left;
-    margin: 10px;
+    margin: 10px auto;
     padding: 5px;
 }
 
 .answer-choice:hover {
-    background-color: rgb(128, 0, 75);
+    /* background-color: rgb(128, 0, 75); */
+    color: blue;
 }
 
 .display-none {
@@ -67,4 +66,11 @@ h1 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+#begin-game {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
