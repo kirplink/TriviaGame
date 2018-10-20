@@ -1,45 +1,58 @@
 body {
-    background-color: lightgray;
+    background-color: #c1dff0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #000501;
 }
 
-header {
-    text-align: center;
-    
-}
 
-h1 {
+
+h2 {
     font-size: 50px;
-    font-weight: bold;
+    margin-bottom: 20px;
 }
+
+.grid {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    
+
+}  
 
 .question-and-answers {
     text-align: center;
-    background-color: teal;
+    background-color: #ef6461;
     width: 800px;
     min-height: 250px;
-    margin: 15px auto;
+    /* margin: 15px auto; */
     font-size: 25px;
-    border-radius: 15px;
+    border-radius: 15px; 
     padding: 15px;
     position: relative;
+    box-shadow: 15px 15px 50px #181e20;
+    align-self: center;
+    
 }
 
 #question {
     margin-bottom: 15px;
 }
 
-.answer-choice {
+.answer-choice, .info-text {
     display: block;
     width: fit-content;
-    cursor: pointer;
+    
     margin: 10px auto;
     padding: 5px;
 }
 
 .answer-choice:hover {
-    /* background-color: rgb(128, 0, 75); */
-    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .display-none {
@@ -48,24 +61,26 @@ h1 {
 
 #myProgress {
     position: absolute;
-    bottom: 20px;
+    bottom: 15px;
     width: 800px;
-    background-color: grey;
+    background-color: #c1dff0;
+    box-shadow:5px 5px 10px #181e20;
 }
 #myBar {
     position: relative;
     width: 0;
-    height: 30px;
-    background-color: green;
+    height: 5px;
+    background-color: #00a676;
 }
 
 #time {
     position: absolute;
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    color: #00050198;
+    bottom: 10px;
+    right: 15px;
+    
 }
 
 #begin-game {
@@ -73,4 +88,24 @@ h1 {
     bottom: 20px;
     left: 50%;
     transform: translate(-50%, 0);
+    background-color: #00a676;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    box-shadow: 5px 5px 15px #181e20;
+    border-radius: 8px;
+    transition: transform .2s ease-in-out, box-shadow 0.2s;
+    /* transition: box-shadow 0.2s; */
+}
+
+#begin-game:hover {
+    transform: scale(1.04) translate(-50%, 0);
+    box-shadow: 8px 8px 15px #181e20;
+}
+
+#begin-game:active {
+    transform: scale(.96) translate(-50%, 0);
+    box-shadow: 1px 1px 20px #181e20;
 }

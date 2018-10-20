@@ -160,8 +160,8 @@ $(document).on('click', '.answer-choice', function() {
     } else {
         // console.log('wrong answer');
         $('#answers').html(`
-            <p>Wrong Answer!</p>
-            <p>The correct answer was:</p>
+            <p class="info-text">Wrong Answer!</p>
+            <p class="info-text">The correct answer was:</p>
             ${questionBank[0].correctAnswerText}
         `)
         losses++;
@@ -185,8 +185,8 @@ $(document).on('click', '#begin-game', function() {
 function displayFinalScreen() {
     $('#question').html(`You've answered all the questions, your final score is as follows:`);
     $('#answers').html(`
-        <span class="answer-choice">Correct: ${wins}</span>
-        <span class="answer-choice">Incorrect: ${losses}</span>
+        <span class="info-text">Correct: ${wins}</span>
+        <span class="info-text">Incorrect: ${losses}</span>
     `);
     $('#begin-game').html('Play Again!').removeClass('display-none');
 }
